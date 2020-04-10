@@ -5,7 +5,7 @@ module Fastlane
   module Actions
     class SergioAction < Action
       def self.run(params)
-        UI.message("Sergio/n" *10)
+        sh(`say "SERGIO is supercool"`)
       end
 
       def self.description
